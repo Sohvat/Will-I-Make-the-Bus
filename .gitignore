@@ -1,0 +1,87 @@
+
+---
+
+```gitignore
+# --------------------
+# Flutter / Dart
+# --------------------
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# --------------------
+# Android
+# --------------------
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug.keystore
+
+# --------------------
+# iOS / macOS
+# --------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# --------------------
+# Environment / Secrets
+# --------------------
+.env
+.env.*
+*.key
+*.pem
+*.secrets
+*.secret
+
+# --------------------
+# Node / Backend
+# --------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------
+# Python / Data
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --------------------
+# Databases / Local Artifacts
+# --------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# --------------------
+# Data Files (adjust as needed)
+# --------------------
+data/raw/private/
+data/raw/snapshots/
+data/intermediate/
+
+# --------------------
+# OS / Editor
+# --------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
