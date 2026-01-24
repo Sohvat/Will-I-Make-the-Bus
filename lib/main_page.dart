@@ -17,7 +17,7 @@ class _MainPageState extends State<MainPage> {
   bool location = false;
   bool _busStops = false;
 
-  Future<void> getLocation() async {
+  Future <void> getLocation() async {
     try {
       final position = await _getUserLocation();
       setState(() {
@@ -108,8 +108,11 @@ class _MainPageState extends State<MainPage> {
   @override
 Widget build(BuildContext context) {
   if(_busStops == true){
-    return BusStop();
-  }else{
+  return BusStop(
+    userPosition: userPosition!,
+    walkingSpeed: walkingSpeed!,
+  );
+}else{
     return Scaffold(
     backgroundColor: Color(0xFF192E59),
     appBar: AppBar(
@@ -154,7 +157,7 @@ Widget build(BuildContext context) {
               if (userPosition == null)
                 Center(
                   child: ElevatedButton(
-                    onPressed: getLocation,
+                    onPressed: () => getLocation(),
                     child: const Text(
                       'Allow Location Access',
                       style: TextStyle(
@@ -251,9 +254,15 @@ Widget build(BuildContext context) {
                 const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
-                    setState(() {
-                      _busStops = true;
-                    });
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => BusStop(
+                          userPosition: userPosition!,
+                          walkingSpeed: walkingSpeed!,
+                        ),
+                      ),
+                    );
                   },
                   child: const Text(
                     'Find Nearby Bus Stops',
