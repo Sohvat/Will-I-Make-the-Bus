@@ -60,11 +60,11 @@ Using your current location, the app:
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202026-01-24%20at%2014.55.23.png" width="45%" alt="Home Screen">
-  <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202026-01-24%20at%2015.06.42.png" width="45%" alt="Nearby Stops">
+  <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202026-01-24%20at%2014.55.23.png" width="25%" alt="Home Screen">
+  <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202026-01-24%20at%2015.06.42.png" width="25%" alt="Nearby Stops">
+  <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202026-01-24%20at%2015.26.42.png" width="25%" alt="Stop Selection">
   <br>
-  <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202026-01-24%20at%2015.26.42.png" width="45%" alt="Stop Selection">
-  <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202026-01-24%20at%2015.26.50.png" width="45%" alt="Schedule View">
+  <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202026-01-24%20at%2015.26.50.png" width="25%" alt="Schedule View">
 </div>
 
 **Screens shown:**  
