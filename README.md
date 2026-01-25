@@ -74,11 +74,3 @@ Using your current location, the app:
 4. Arrival schedule with adjusted ETAs  
 
 ---
-
-## 🚀 Setup & Run
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Sohvat/Will-I-Make-the-Bus.git
-cd Will-I-Make-the-Bus
-pub get
